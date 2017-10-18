@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 809681863,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 355979154,
+          "is_bot": false,
+          "first_name": "Artem",
+          "last_name": "Ivanov",
+          "username": "DarkArgo",
+          "language_code": "ru-RU"
+        },
+        "chat": {
+          "id": 355979154,
+          "first_name": "Artem",
+          "last_name": "Ivanov",
+          "username": "DarkArgo",
+          "type": "private"
+        },
+        "date": 1508267790,
+        "text": "okey"
+      }
+    }
+  ]
+}
