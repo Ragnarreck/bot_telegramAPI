@@ -1,8 +1,9 @@
 import requests
+from token import get_token
 
 class Bot:
 	def __init__(self):
-		self.TOKEN = '389092093:AAHB28pvCl2HtdLg-YuvicUnu0FRyXSTZkM'
+		self.TOKEN = get_token()
 		self.URL = 'https://api.telegram.org/bot{0}/'.format(self.TOKEN)
 		self.last_update_id = 0
 	
